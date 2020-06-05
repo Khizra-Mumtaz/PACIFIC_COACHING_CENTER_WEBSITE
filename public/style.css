@@ -1,0 +1,329 @@
+.navbar{
+background-color:navy !important; 
+padding-top: 0px !important;
+padding-bottom: 0px !important;
+}
+body{
+    background-color: ivory;
+    font-family: 'Merriweather', serif;
+}
+.navbar-text{
+    display: flex;
+    align-content: flex-end;
+}
+.nav-link{
+    
+    color: ghostwhite !important;
+    font-size: larger;
+    font-weight: bolder;
+}
+.nav-link:hover{
+    color: black !important;
+    font-size: larger;
+    font-weight: bolder;
+    border: transparent;
+    border-radius: 20px;
+    background-color: gainsboro;
+       opacity: 50%;
+}
+.heading{
+     margin: 5% 0;
+     line-height: 2px;
+     position: sticky;
+     top: 0;
+     z-index: 1;
+     background-color: ivory;
+     width: 100%;
+     
+}
+.heading>h1{
+    text-align: center;
+    color: navy;
+    font-weight: 900;
+    border-bottom: 2px solid navy;
+  
+}
+
+.heading>h4{
+    text-align: center;
+    text-transform: uppercase;
+    color: navy;
+    border-bottom: 2px solid navy ;
+}
+.admin{
+    background-color: whitesmoke;
+}
+
+.admin h1{
+    text-align: center;   
+    border-top: 2px double navy;
+    color: navy; 
+    text-shadow:2px 2px 5px gray ;
+    font-weight: 700;
+    margin-bottom: 2%;
+    margin-top: 3%;
+    margin-left: 25%;
+    margin-right: 25%;
+padding: 0%;
+}
+#owner-img{
+    margin: 1% 3% 3% 3%;
+      
+}
+.dropdown-menu{
+background-color: gainsboro !important;
+
+}
+.dropdown-item{
+    color: navy !important;
+    font-weight: 600;
+}
+#owner-text{
+   padding-top: 8%;
+   padding-left: 0%;
+ 
+}
+#owner-text p{
+    padding: 1%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 15px;
+    box-shadow: 2px 2px 8px gray;
+    line-height: 30px;
+}
+#owner-img img{
+    width: 60%;
+    box-shadow: 2px 2px 5px gray;
+}
+.carousel-inner{
+    padding: 2%;
+  
+}
+.features{
+    background-color: whitesmoke;
+}
+.features h1{
+    
+    text-align: center;   
+    border-top: 2px double navy;
+    color: navy; 
+    text-shadow:2px 2px 5px gray ;
+    font-weight: 700;
+    margin-bottom: 2%;
+    
+    margin-left: 30%;
+    margin-right: 30%;
+padding: 0%;
+}
+.col-sm{
+    margin: 2%;
+}
+.card-text{
+    color: navy;
+    text-align: center;
+    font-weight: 600;
+}
+.bottom{
+    background-color: whitesmoke;
+    color: navy;
+    padding: 0 2%;
+}
+.bottom h1{
+    text-align: center;   
+    border-top: 2px double navy;
+    color: navy; 
+    text-shadow:2px 2px 5px gray ;
+    font-weight: 700;
+    margin-bottom: 2%;
+    margin-left: 27%;
+    margin-right: 27%;
+    padding: 0%;
+}
+.bottom .col {
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px grey;
+    margin: 0 2% 2% 2%;
+}
+
+.bottom .col a h2{
+    text-decoration: underline navy;
+    color: navy;
+}
+.bottom .col a h2:hover{
+    text-decoration: underline rgb(3, 3, 204);
+    color:rgb(3, 3, 204);
+}
+
+.last h1{
+    text-align: center;   
+    border-top: 2px double navy;
+    color: navy; 
+    text-shadow:2px 2px 5px gray ;
+    font-weight: 700;
+    margin-bottom: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 0%;
+} 
+.last{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3%;
+}
+.table-1 td, .table-1 th{
+    padding: 1%;
+    text-align: center;
+    border: 2px solid navy;
+    border-collapse: collapse;
+    column-width: 20% ;
+    color: navy;
+    font-weight: 500;
+}
+th{
+    font-size: 25px;}
+.fa-copyright, .fa-facebook{
+    color: white;
+}
+.fa-angle-up{
+    position: fixed;
+    bottom: 1%;
+    right: 2%;
+}
+
+.myForm{
+    
+   
+    color: navy;
+    word-spacing: 0.3em;
+    text-align: justify;
+}
+form{
+    line-height: 2.5em;
+        text-align: justify;
+        box-shadow: 2px 2px 8px gray;
+        margin-left: 15%;
+        margin-right:15%;
+        margin-bottom: 4em;
+        padding: 0 5% 5% 5%;
+        background-color:whitesmoke;
+
+}
+.FormHeading{
+    text-align: center;   
+    border-top: 2px double navy;
+    color: navy; 
+    text-shadow:2px 2px 5px gray ;
+    font-weight: 700;
+    margin-bottom: 4%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 0%;
+}
+.inner-table td{
+    text-align: center;
+}
+.inner-table td>input[type=text]{
+    width: 150px;
+}
+form input[type=text],form textarea,form input[type=email],form input[type=number],form input[type=submit],form input[type=reset]
+{
+    line-height: 1em;
+}
+.Fees td{
+    border: 2px solid  navy;
+    padding: 1% 3%;
+    color: navy;
+    font-size: 15px;
+    
+}
+.Fees th{
+    border: 2px solid  navy;
+    padding: 1% 3%;
+    color: navy;
+    font-size: 23px;
+    background-color: gainsboro;
+}
+.Fees h1{
+    text-align: center;   
+    border-top: 2px double navy;
+    color: navy; 
+    text-shadow:2px 2px 5px gray ;
+    font-weight: 700;
+    margin-bottom: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 0%;   
+}
+.location h1 ,.contact h1{
+    text-align: center;   
+    border-top: 2px double navy;
+    color: navy; 
+    text-shadow:2px 2px 5px gray ;
+    font-weight: 700;
+    margin-bottom: 2%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 0%;   
+}
+.location{
+color: navy;
+background-color: whitesmoke;
+text-align: center;
+}
+.contact {
+    color: navy; 
+    padding: 0% 4% 2% 4%;
+}
+.contact li{
+    list-style: none;
+}
+@media only screen and (max-width: 600px)
+{
+    .table-1 th{
+        font-size: 15px;
+    }
+    .bottom a h2{
+        font-size: 20px;
+    }
+    .bottom h4, .bottom ul li{
+        font-size: 15px;
+    }
+    #owner-text p{
+        font-size: 12px;
+        line-height: 1.5em;
+    }
+    .heading{
+        position: relative;
+    }
+}
+    @media only screen and (max-width: 950px)
+    {
+
+    .FormHeading{
+        font-size: 20px;
+    }
+    .myForm label , .myForm td, .myForm input[type=submit]{
+        font-size: 12px;
+    }
+    .myForm input[type=text], .myForm textarea, .myForm input[type=email],.myForm input[type=number]{
+        width: 100px;
+    }
+    .inner-table td  input[type=text] {
+        width: 80px;
+    }
+    form{
+        width: 100%;
+        margin: 0;
+    }
+
+    .Fees h1{
+        font-size: 22px;
+    }
+    table.Fees, .Fees{
+        margin:5% 0 !important;
+    }
+    .Fees th{
+        font-size: 18px;
+    }
+}

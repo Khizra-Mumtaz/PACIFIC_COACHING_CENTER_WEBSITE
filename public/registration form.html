@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration_Form</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet"  href="style.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body >
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img src="authentic logo pacific curved final.png" alt=" logo" width="30%" height="20%"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    
+                  </ul>
+              <span class="navbar-text">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html"> <i class="fa fa-home" aria-hidden="true"></i> Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    
+                    <li class="nav-item">
+                      <a class="nav-link" href="registration form.html"> <i class="fa fa-file-text-o" aria-hidden="true"></i> Admission form</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="fee.html"> <i class="fa fa-money" aria-hidden="true"></i> Fees Structure</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-phone" aria-hidden="true"></i> Contact Us
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="https://www.facebook.com/pacific13/?ref=page_internal">Facebook page</a>
+                          <a class="dropdown-item" href="location.html">Location & Contact</a>
+                      </li>
+                  </ul>
+              </span>
+            </div>
+          </nav>
+    </div>
+    <div class="heading">
+ <h1>PACIFIC COLLEGE COACHING AND  <br>PRACTICLE LABORATORY</h1>
+ <h4>~~~ The name you can trust ~~~</h4>
+    </div>
+    <div>
+        <form  class="reg-form">
+            <table class="myForm">
+                <h1 class="FormHeading">Student Registration Form</h1>
+                <tr>
+                    <td><label for="f.name">FIRST NAME: </label></td>
+                    <td><input type="text" maxlength="30" required>  <br></td>
+                </tr>
+                <tr>
+                    <td><label for="l.name">LAST NAME: </label></td>
+                    <td><input type="text" maxlength="30" required>  <br></td>
+                </tr>
+                <tr>
+                    <td><label for="DOB">DATE OF BIRTH: </label> </td>
+                    <td><select>
+                        <option>Day:</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">1</option>
+                        <option value="12">1</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                    </select>
+                        <select><option>Month:</option>
+                            <option value="1">jan</option>
+                            <option value="2">feb</option>
+                            <option value="3">mar</option>
+                            <option value="4">apr</option>
+                            <option value="5">may</option>
+                            <option value="6">jun</option>
+                            <option value="7">jul</option>
+                            <option value="8">aug</option>
+                            <option value="9">sep</option>
+                            <option value="10">oct</option>
+                            <option value="11">nov</option>
+                            <option value="12">dec</option></select>
+                        <select><option >Year:</option>
+                        
+                            <option value="">1990</option>
+                            <option value="">1991</option>
+                            <option value="">1992</option>
+                            <option value="">1993</option>
+                            <option value="">1994</option>
+                            <option value="">1995</option>
+                            <option value="">1996</option>
+                            <option value="">1997</option>
+                            <option value="">1998</option>
+                            <option value="">1999</option>
+                            <option value="">2000</option>
+                            <option value="">2001</option>
+                            <option value="">2002</option>
+                            <option value="">2003</option>
+                            <option value="">2004</option>
+                            <option value="">2005</option>
+                    
+                    </select><br></td>
+                </tr>
+                <tr>
+                    <td><label for="email" >EMAIL ID: </label></td>
+                    <td><input type="email" required><br></td>
+                </tr>
+                <tr>
+                    <td><label for="contactno. " required>CONTACT NO.: </label> </td>
+                    <td><input type="number" required> <br><label>(10 digit number)</label><br></td>
+                </tr>
+                <tr>
+                    <td><label for="gender"required>GENDER:</label></td>
+                    <td><label for="male" > Male </label><input type="radio" name="gender" id="male"><label for="female"> Female </label><input type="radio" name="gender" id="female"><br></td>
+                </tr>
+                <tr>
+                    <td id="add"><label for="address">ADDRESS: </label></td>
+                    <td><textarea name="address" cols="40" rows="5"></textarea><br></td>
+                </tr>
+                <tr>
+                    <td><label for="city">CITY: </label> </td>
+                    <td><input type="text" maxlength="30" required>  <br> </td>
+                </tr>
+                
+                <tr>
+                    <td><label for="group">GROUP: </label></td>
+                    <td><label>Pre-Engineering</label><input type="checkbox" >
+                        <label>Pre-Medical</label><input type="checkbox" >
+                        <label>Others</label><input type="checkbox" >
+                </tr>
+                <tr>
+                    <td><label >QUALIFICATION: </label></td>
+                    <td><div class="inner-table">
+                        <table style="margin-left: auto; margin-right: auto;" >
+                            <tr>
+                                <td>S.No</td>
+                                <td>Examination</td>
+                                <td>Board</td>
+                                <td>Percentage</td>
+                                <td>Year Of Passing</td>
+                            </tr>
+                            <tr>
+                                <td>1.</td>
+                                <td>Class IX</td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>2.</td>
+                                <td>Class X</td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>3.</td>
+                                <td>Class XI</td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>2.</td>
+                                <td>Class XII</td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"></td>
+                                <td>(10 char max)</td>
+                                <td>(upto 2 decimal)</td>
+                            </tr>
+                        </table>
+                    </div></td>
+                </tr>
+                <tr>
+                    <td><div id="nls"><label>SUBJECTS</label></div></td>
+                    <td>
+                        <table>
+                            
+                            <tr>
+                                <td>
+                                    <label for="">For IX: </label><input type="radio" name="" id=""><label for="">Biology</label>
+                        <input type="radio" name="" id=""><label for="">Chemistry</label>
+                        <input type="radio" name="" id=""><label for="">English</label>
+                        <input type="radio" name="" id=""><label for="">Sindhi</label>
+                        <input type="radio" name="" id=""><label for="">Pak-Studies</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="">For X: </label><input type="radio" name="" id=""><label for="">Mathematics</label>
+                        <input type="radio" name="" id=""><label for="">Physics</label>
+                        <input type="radio" name="" id=""><label for="">English</label>
+                        <input type="radio" name="" id=""><label for="">Islamiat</label>
+                        <input type="radio" name="" id=""><label for="">Urdu</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                        <label for="">For XI: </label><input type="radio" name="" id=""><label for="">Biology</label>
+                        <input type="radio" name="" id=""><label for="">Mathematics</label>
+                        <input type="radio" name="" id=""><label for="">Physics</label>
+                        <input type="radio" name="" id=""><label for="">Chemistry</label>
+                        <input type="radio" name="" id=""><label for="">English</label>
+                        <input type="radio" name="" id=""><label for="">Islamiat</label>
+                        <input type="radio" name="" id=""><label for="">Urdu</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="">For XII: </label><input type="radio" name="" id=""><label for="">Biology</label>
+                                    <input type="radio" name="" id=""><label for="">Mathematics</label>
+                                    <input type="radio" name="" id=""><label for="">Physics</label>
+                                    <input type="radio" name="" id=""><label for="">Chemistry</label>
+                                    <input type="radio" name="" id=""><label for="">English</label>    
+                        <input type="radio" name="" id=""><label for="">Pak-Studies</label>
+                        <input type="radio" name="" id=""><label for="">Urdu</label>
+                                </td>
+                            </tr>
+                        </table>
+                        </td> 
+                        
+                </tr>
+            </table>
+            <span id="center"> <input type="submit" value="Submit" onclick="submitted()" >
+                <input type="reset" value="Reset"></span>
+               
+        </form>
+    </div>
+    <div class="footer" style="background-color: navy; padding: 0.4% 1% 0.1% 0%;">
+        <p><i class="fa fa-copyright" aria-hidden="true"></i> <span style="color: white; font-size: 12px;">WEBSOL.pk</span></p>
+      </div>
+      <a href="#"><i class="fa fa-angle-up" aria-hidden="true" style="font-size:36px; color: navy; background-color: gainsboro; opacity: 10px; padding: 0 0.5%; border-radius: 5px;"></i></a>
+<script src="app.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
